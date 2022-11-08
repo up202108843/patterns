@@ -2,10 +2,6 @@ import org.testng.annotations.Test;
 import static org.testng.AssertJUnit.assertEquals;
 import java.lang.StringBuilder;
 public class StringInverter implements StringTransformer{
-    String text_;
-    public StringInverter(){
-        text_ = "";
-    }
     @Override
     public void execute(StringDrink drink) {
         StringBuilder a = new StringBuilder(drink.getText());
