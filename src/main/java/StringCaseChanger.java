@@ -1,9 +1,6 @@
-import org.testng.annotations.Test;
 import java.lang.StringBuilder;
 import static java.lang.Character.toLowerCase;
 import static java.lang.Character.toUpperCase;
-import static org.testng.AssertJUnit.assertEquals;
-import java.lang.Character;
 public class StringCaseChanger implements StringTransformer {
     @Override
     public void execute(StringDrink drink) {

@@ -1,5 +1,3 @@
-import org.testng.annotations.Test;
-import static org.testng.AssertJUnit.assertEquals;
 public class StringDrink {
     String text_;
     public StringDrink(){
