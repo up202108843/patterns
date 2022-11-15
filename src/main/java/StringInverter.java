@@ -8,11 +8,4 @@ public class StringInverter implements StringTransformer{
         a.reverse();
         drink.setText(a.toString());
     }
-    @Test
-    public void stringInverter() {
-        StringDrink drink = new StringDrink("ABCD");
-        StringInverter si = new StringInverter();
-        si.execute(drink);
-        assertEquals("DCBA", drink.getText());
-    }
 }
